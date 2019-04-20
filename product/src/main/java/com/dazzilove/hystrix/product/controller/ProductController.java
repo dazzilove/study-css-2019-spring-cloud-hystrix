@@ -11,6 +11,6 @@ public class ProductController {
 
 	@RequestMapping(value = "/product/{id}", method = RequestMethod.GET)
 	public String getProductById(@PathVariable("id") String id) {
-		return "Product Call - Product Id = " + id;
+		return "{id:"+id+", name:mong"+ id +"}";
 	}
 }
