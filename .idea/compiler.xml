@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.dazzilove.hystrix.hystrix.main" target="1.8" />
+      <module name="com.dazzilove.hystrix.hystrix.test" target="1.8" />
+      <module name="com.dazzilove.hystrix.hystrixdashboard.main" target="1.8" />
+      <module name="com.dazzilove.hystrix.hystrixdashboard.test" target="1.8" />
+      <module name="com.dazzilove.hystrix.order.main" target="1.8" />
+      <module name="com.dazzilove.hystrix.order.test" target="1.8" />
+      <module name="com.dazzilove.hystrix.product.main" target="1.8" />
+      <module name="com.dazzilove.hystrix.product.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
