@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.hystrix.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard/com.dazzilove.hystrix.hystrixdashboard.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/com.dazzilove.hystrix.order.iml" filepath="$PROJECT_DIR$/.idea/modules/order/com.dazzilove.hystrix.order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.order.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.order.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.order.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/com.dazzilove.hystrix.product.iml" filepath="$PROJECT_DIR$/.idea/modules/product/com.dazzilove.hystrix.product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.product.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.product.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.product.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dazzilove.hystrix.product.test.iml" />
+    </modules>
+  </component>
+</project>
