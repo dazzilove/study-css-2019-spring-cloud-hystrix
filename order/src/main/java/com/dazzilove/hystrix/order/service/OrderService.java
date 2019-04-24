@@ -10,13 +10,12 @@ public class OrderService {
 	@Autowired
 	RestTemplate restTemplate;
 
-	@HystrixCommand(fallbackMethod = "getProductByIdFallback")
-	public String getProductById(String id) {
-		String product = restTemplate.getForObject("http://localhost:10002/product/" + id, String.class);
-		return "@HystrixCommand - " + product;
+	@HystrixCommand(fallbackMethod = "getOrderProductByIdFallback")
+	public String getOrderProductById(String id) {
+		return (String) restTemplate.getForObject("http://localhost:10002/product/" + id, String.class);
 	}
 
-	private String getProductByIdFallback(String id) {
-		return "Call getProductByIdFallback method.";
+	private String getOrderProductByIdFallback(String id) {
+		return "Call getOrderProductByIdFallback method.";
 	}
 }
