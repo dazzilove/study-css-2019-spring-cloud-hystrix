@@ -15,7 +15,8 @@ public class OrderController {
 	}
 
 	@RequestMapping(value = "/order/product/{id}", method = RequestMethod.GET)
-	public String getProductById(@PathVariable("id") String id) {
-		return "Order Call - Product = " + orderService.getProductById(id);
+	public String getOrderProductById(@PathVariable("id") String id) {
+		String product = orderService.getOrderProductById(id);
+		return "Order Call - <br>Product = " + product;
 	}
 }

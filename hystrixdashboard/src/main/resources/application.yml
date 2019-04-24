@@ -1,2 +1,15 @@
+spring:
+  application:
+    name: hystrix-dashboard
+
 server:
   port: 9000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
+
+turbine:
+  appConfig: order-service, product-service
+  clusterNameExpression: new String('default')

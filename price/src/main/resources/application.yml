@@ -1,9 +1,9 @@
 spring:
   application:
-    name: order-service
+    name: price-service
 
 server:
-  port: 10001
+  port: 10003
 
 eureka:
   client:
