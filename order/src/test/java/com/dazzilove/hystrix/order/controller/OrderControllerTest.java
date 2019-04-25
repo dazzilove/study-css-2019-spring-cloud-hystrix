@@ -10,7 +10,7 @@ public class OrderControllerTest {
 
 	@Test
 	public void testOrder() throws InterruptedException {
-		for(int i=0; i<10000; i++) {
+		for(int i=0; i<1000; i++) {
 			sendAndAcceptOrder();
 			Thread.sleep(100);
 		}
