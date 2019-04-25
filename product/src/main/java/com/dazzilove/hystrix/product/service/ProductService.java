@@ -18,6 +18,6 @@ public class ProductService {
 	}
 
 	private String getProductByIdFallback(String id) {
-		return "fallback result {id:" + id + ", name=temp, price:0}";
+		return "product hystrix getProductByIdFallback {id:" + id + ", name=temp, price:0}";
 	}
 }
